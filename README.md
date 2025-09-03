@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **Hangman game AI** using an **LSTM-based neural network** built with PyTorch.  
+This project implements a **Hangman game AI** using an **LSTM-based neural network** built with PyTorch for airline domain words.  
 The model predicts the next letter in a Hangman word based on the current state of guessed letters.  
 A **Flask API** is provided to interact with the model programmatically.  
 
@@ -40,7 +40,7 @@ The API can run with minimal setup on any system terminal.
 1. **Install Dependencies**
 
     -Python 3.8 or higher (https://www.python.org/downloads/)
-    -Donwload/Install Git (https://git-scm.com/downloads/win?utm_source=chatgpt.com)
+    -Donwload/Install Git (https://git-scm.com/downloads/)
     -Download/Install VSCode (https://code.visualstudio.com/) (Optional but recommended)
     -Download/Install Postman Desktop (https://www.postman.com/downloads/)
 
@@ -55,8 +55,10 @@ The API can run with minimal setup on any system terminal.
 
     -In terminal post the following to install requiremets:
         pip install -r requirements.txt
+
     -In terminal post the following to run the python script/API:
         python hangman_ml_api.py --api
+
     -Open Postman Destop to test the model/access the APIs on your required data:
         API Usage Examples:
             - http://127.0.0.1:5000/next_guess         # For POST request with JSON input
@@ -67,7 +69,7 @@ The API can run with minimal setup on any system terminal.
         OR JUST GO TO THE FOLLOWING LINK TO SEE ALL OF THE ABOVE APIs WORKSPACE IN POSTMAN:
         https://www.postman.com/dark-satellite-3798579/workspace/hangman-ml/request/48139795-5d6876aa-521a-46ad-960a-840e618bf3ef?action=share&source=copy-link&creator=48139795
 
-4. **Libraries Used**
+5. **Libraries Used**
     This project uses the following well-known Python libraries:
 
     - **torch, torch.nn, torch.optim, torch.utils.data** – PyTorch library used to define, train, and run the LSTM neural network for Hangman prediction.

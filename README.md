@@ -41,17 +41,18 @@ The API can run with minimal setup on any system terminal.
 
     -Python 3.8 or higher (https://www.python.org/downloads/)
     -Donwload/Install Git (https://git-scm.com/downloads/)
+    -Download/Install Postman Desktop Agent (https://www.postman.com/downloads/postman-agent/)
     -Download/Install VSCode (https://code.visualstudio.com/) (Optional but recommended)
-    -Download/Install Postman Desktop (https://www.postman.com/downloads/)
+    -Download/Install Postman Desktop (https://www.postman.com/downloads/) (Optional but recommended)
 
-2. **Clone the repository:**
+3. **Clone the repository:**
 
     -Open the folder in your command promt/terminal where you want to clone the repository and post the following:
 
         git clone https://github.com/va1bhv22995/Hangman_ML.git
         cd Hangman_ML
         
-3. **Running & Testing Instructions**
+4. **Running & Testing Instructions**
 
     -In terminal post the following to install requiremets:
         pip install -r requirements.txt
@@ -76,4 +77,5 @@ The API can run with minimal setup on any system terminal.
     - **flask** – Web framework to create API endpoints for interacting with the model.
     - **argparse** – Standard Python library to handle command-line arguments.
     - **string, os** – Standard Python libraries for text processing, file handling, and general utilities.
+
 
